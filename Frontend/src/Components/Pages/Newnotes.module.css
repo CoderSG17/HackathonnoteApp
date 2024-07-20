@@ -1,0 +1,42 @@
+.new-note{
+    padding:16px;
+    background-color: cornsilk;
+    width:700px;
+    height: 400px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 26);
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+.new-note input{
+    box-sizing: border-box;
+    margin: 5px;
+    width:100%;
+}
+
+
+.new-note input.label{
+    display:block;
+    margin: 5px;
+}
+
+.new-note textarea{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.new-note textarea{
+    outline: none;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.new-note button{
+    margin-top: 2px;
+    color: white;
+    background-color: rgb(40,90,40);
+    font-size: medium;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+}

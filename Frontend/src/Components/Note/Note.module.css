@@ -1,0 +1,35 @@
+.notes{
+    max-width: 700px ;
+    margin:20px auto;
+    padding : 20px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+ 
+h3{
+    align-items: center;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+h3::before{
+    content: '-';
+}
+
+.notes p{
+    font-family:cursive;
+    font-weight: bold;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.notes button{
+    font-size: 15px;
+    background-color: rgb(186, 219, 222);
+    padding: 10px;
+    cursor: pointer;
+   
+}
